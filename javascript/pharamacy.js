@@ -138,7 +138,7 @@ function processbuynow(){
     }));
     localStorage.setItem('cartData', JSON.stringify(cartData));
     localStorage.setItem('totalPrice', totalPrice.toFixed(2));
-    window.location.href = '/checkout.html';
+    window.location.href = '/CB013067-WDOS2/checkout.html';
 }
 
 function resetcartbtnfunction(){
@@ -213,7 +213,7 @@ function movefavtocheckout(){
 
         // Redirect to the checkout page
         alert("Favorite items moved to the checkout page.");
-        window.location.href = '/checkout.html';
+        window.location.href = '/CB013067-WDOS2/checkout.html';
     }
 
 }

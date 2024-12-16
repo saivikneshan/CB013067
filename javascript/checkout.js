@@ -140,7 +140,7 @@ function handleFormSubmission(event) {
 
     alert("Order placed successfully!");
     localStorage.clear(); // To clears the cart
-    window.location.href = '/thank_you.html'; // Redirects to a thank you page
+    window.location.href = '/CB013067-WDOS2/thank_you.html'; // Redirects to a thank you page
 }
 
 document.addEventListener('DOMContentLoaded', function () {
